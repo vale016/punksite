@@ -1,0 +1,46 @@
+body{
+    background-image:url(../images/record.jpg); border-image-repeat: none;
+}
+
+#holder
+{background-image:url(../images/record.jpg);
+    width:753px;
+    height:510px;
+    padding:10px;
+    border-radius:5px; position: absolute; top:200px; right: 400px;
+}
+
+
+.navigation {
+    width: 200px; height: 500px;
+  }
+  
+
+  .mainmenu, .submenu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+
+  .mainmenu a { font-family: "alta-california", sans-serif;
+      font-weight: 400;
+      font-style: normal; font-size: 40px;
+    display: block;
+    background-color: #CCC;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+  }
+  
+  .mainmenu a:hover {
+      background-color: #C5C5C5;
+  }
+  
+  
+
+  
+  .mainmenu li:hover .submenu {
+    display: block;
+    max-height: 200px;
+  }
